@@ -1,4 +1,26 @@
 {
     "name": "Python Codespace",
-    "image": "mcr.microsoft.com/devcontainers/java:0-17"
+    "image": "mcr.microsoft.com/devcontainers/java:0-17",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "chat.disableAIFeatures": true,
+                "github.copilot.enable": {
+                    "*": false
+                },
+                "github.copilot.chat.agent.autoFix": false,
+                "github.copilot.inlineSuggest.enable": false,
+                "github.copilot.editor.enableAutoCompletions": false,
+                "chat.commandCenter.enabled": false,
+                "workbench.secondarySideBar.defaultVisibility": "hidden",
+                "extensions.autoCheckUpdates": false,
+                "extensions.autoUpdate": false
+            },
+            "extensions": [
+                "java.extension-pack",
+                "-GitHub.copilot",
+                "-GitHub.copilot-chat"
+            ]
+        }
+    }
 }

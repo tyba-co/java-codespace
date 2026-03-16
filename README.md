@@ -1,7 +1,7 @@
-# Python codespaces 
+# Java codespaces 
 
 Run 
 
 ```
-python3 main.py
+javac Main.java & java Main
 ```
