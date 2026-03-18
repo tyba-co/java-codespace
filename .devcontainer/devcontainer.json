@@ -1,5 +1,5 @@
 {
-    "name": "Python Codespace",
+    "name": "Java Codespace",
     "image": "mcr.microsoft.com/devcontainers/java:0-17",
     "customizations": {
         "vscode": {
@@ -14,7 +14,13 @@
                 "chat.commandCenter.enabled": false,
                 "workbench.secondarySideBar.defaultVisibility": "hidden",
                 "extensions.autoCheckUpdates": false,
-                "extensions.autoUpdate": false
+                "extensions.autoUpdate": false,
+                "chat.enabled": false,
+                "workbench.panel.defaultLocation": "bottom",
+                "workbench.view.chat.enabled": false,
+                "workbench.startupEditor": "none",
+                "workbench.activityBar.visible": true,
+                "workbench.view.chat.visible": false
             },
             "extensions": [
                 "java.extension-pack",
