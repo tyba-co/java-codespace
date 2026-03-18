@@ -20,7 +20,8 @@
                 "workbench.view.chat.enabled": false,
                 "workbench.startupEditor": "none",
                 "workbench.activityBar.visible": true,
-                "workbench.view.chat.visible": false
+                "workbench.view.chat.visible": false,
+                "window.restoreWindows": "none"
             },
             "extensions": [
                 "java.extension-pack",
